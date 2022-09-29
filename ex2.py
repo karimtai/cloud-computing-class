@@ -47,18 +47,3 @@ for i in range (1, num1):
 
 print (len(num_primos))
 print ((num_primos))
-
-"""
-Comienza con el numero que se busca sea primo, se sabe que 0, 1 y 2 
-ya son numeros primos, por lo que se comienza la busqueda si se es mayor a 2
-
-Si son iguales n y num, es porque despues de todo el proceso de 
-retroalimentacion nunca se regreso un valor booleano falso, por lo que 
-si es primo
-
-Si tiene residuos la division, significa que no es multipo, por lo que
-se regresa a la funcion agregando un valor a n
-
-Por lo contrario, si el residuo es 0, es un multiplo y el numero 
-proporcionado no es primo
-"""
